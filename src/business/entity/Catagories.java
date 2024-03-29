@@ -56,7 +56,7 @@ public class Catagories {
     }
 
     public void displayData() {
-        System.out.printf("|ID: %-5d | Name: %-15s | Description : %-20s | Status : %-10s\n",
+        System.out.printf("|ID: %-5d | Name: %-15s | Description : %-50s | Status : %-10s\n",
                 this.catalogID, this.catalogName, this.descriptions, this.isCatalogStatus() ? "Hoạt động" : "Không hoạt động");
     }
 

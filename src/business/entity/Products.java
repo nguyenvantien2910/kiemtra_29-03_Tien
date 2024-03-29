@@ -209,7 +209,7 @@ public class Products {
 
     public void displayData() {
         System.out.printf("|ID: %-5s | Name: %-10s | Price: %-12.2f | Description : %-30s | Created : %-10s | CatalogId : %-5d | Status : %-10s",
-                this.catalogId, this.productName,this.price,this.description,this.created,
+                this.productID, this.productName,this.price,this.description,this.created.toString(),this.catalogId,
                 switch (this.productStatus) {
                     case BLOCK -> "Hết hàng";
                     case ACTIVE -> "Đang bán";
